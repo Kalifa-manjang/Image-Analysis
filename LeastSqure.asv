@@ -1,0 +1,8 @@
+function betaHat = LeastSqure(X,y)
+%UNTITLED3 Summary of this function goes here
+%   Detailed explanation goes here
+
+betaHat = (X' .* X) \ (X' .* y);
+
+end
+
